@@ -1,0 +1,15 @@
+{
+  "name": "devops-ecommerce-source",
+  "version": "1.0.0",
+  "description": "Simple e-commerce source code for DevOps training lab",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "node src/test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}
